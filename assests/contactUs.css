@@ -1,0 +1,836 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+}
+/* *{
+    background-color: rgb(241, 253, 249) !important;
+} */
+
+/* Navbar */
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #15a583, #15a583);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 55px;
+    padding-left: 20px;
+} 
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 100px;
+    font-size: 22px;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+.sec1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.sec1-1{
+    display: grid;
+    justify-content: center;
+    color: rgb(21, 160, 118);
+    margin-top: 50px;
+    line-height: 30px;
+}
+.sec1-1 h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+}
+.sec1-1 label{
+    font-weight: bold;
+    color: black;
+}
+.sec1-1 input,.sec1-1 textarea{
+    border: rgb(21, 160, 118) 2px solid;
+}
+.sec1-1 input{
+    padding-left: 20px;
+}
+.sec1-1 input[type=text]{
+    width: 500px;
+    height: 50px;
+}
+.sec1-1 input[type=email]{
+    width: 500px;
+    height: 50px;
+}
+.sec1-1 input[type=number]{
+    width: 500px;
+    height: 50px;
+}
+.sec1-1 button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(21, 160, 118) !important;
+    color: white;
+    border-radius: 50px;
+    outline: none !important;
+    margin-top: 40px;
+}
+.sec1-1 button:hover{
+    transform: scale(1.07);
+    transition: 0.2s all;
+}
+
+.sec1-2{
+    color: rgb(21, 160, 118);
+    margin-top: 100px;
+}
+.sec1-2 h2{
+    margin-top: 70px;
+    color: black;
+}
+.sec1-2 span img{
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.sec1-2 #flipkartIcon img{
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+}
+.sec1-2 button{
+    background-color: rgb(96, 201, 169);
+    color: white;
+    font-size: 22px;
+    width: 270px;
+    border-radius: 50px;
+    margin-top: 40px;
+    outline: transparent;
+}
+.sec1-2 button a{
+    text-decoration: none;
+    color: rgb(21, 160, 118);
+    color: white;
+}
+
+.footer{
+    background-color: rgb(21, 160, 118);
+    color: white;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+}
+.footerLeft, .footerMid, .footerRight{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.footer .footerLeft img{
+    height: 50px;
+    width: 180px;
+}
+.footerLeft .links img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+.footerRight{
+    display: grid;
+    margin-top: 20px;
+}
+.footerRight ul{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+.footerRight ul li a{
+    color: white;
+    text-decoration: none;
+}
+h6{
+    text-align: center;
+    color: white !important;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 0rem !important;
+}
+.social_icon ul{
+display: flex;
+padding: 0px;
+}
+.social_icon ul li{
+    list-style-type: none;
+    padding:10px;
+}
+div#contact {
+    background-color: rgb(21, 160, 118);
+    padding: 25px 0px;
+}
+.image-icon span {
+    padding: 0px 20px;
+}
+
+div#contact {
+    color:white;
+}
+
+
+/* Media Queries */
+@media (min-width:320px) and (max-width:374px){
+    .navbar-brand img{
+        height: 40px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .navBrand label{
+        font-weight: bold;
+        color: rgb(21, 160, 118);
+        font-size: 12px;
+    }
+    #navBar ul li a:hover{
+        transform: none;
+    }
+
+    .sec1-1 h2{
+        margin-bottom: 50px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 22px;
+        color: black;
+    }
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .sec1-1 label{
+        font-weight: bold;
+        color: black;
+    }
+    .sec1-1 input,.sec1-1 textarea{
+        border: rgb(21, 160, 118) 2px solid;
+        width: 300px;
+        height: 100px;
+    }
+    .sec1-1 input{
+        padding-left: 10px;
+    }
+    .sec1-1 input[type=text]{
+        width: 300px;
+        height: 40px;
+    }
+    .sec1-1 input[type=email]{
+        width: 300px;
+        height: 40px;
+    }
+    .sec1-1 input[type=number]{
+        width: 300px;
+        height: 40px;
+    }
+    .sec1-1 button{
+        height: 50px;
+        width: 150px;
+        background-color: rgb(21, 160, 118) !important;
+        color: white;
+        border-radius: 50px;
+        outline: none !important;
+        margin-top: 40px;
+    }
+    .sec1-1 button:hover{
+        transform: scale(1.07);
+        transition: 0.2s all;
+    }
+    .sec1-2{
+        color: rgb(21, 160, 118);
+        margin-top: 100px;
+    }
+    .sec1-2 h2{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 70px;
+        color: black;
+    }
+    .sec1-2 span img{
+        height: 60px;
+        width: 60px;
+        margin-top: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .SocialMediaPlatforms{
+        margin-left: 20px;
+    }
+    .sec1-2 #flipkartIcon img{
+        height: 47px;
+        width: 47px;
+        border-radius: 50%;
+    }
+    .sec1-2 button{
+        background-color: rgb(96, 201, 169);
+        color: white;
+        font-size: 22px;
+        width: 270px;
+        border-radius: 50px;
+        margin-top: 40px;
+        margin-left: 20px;
+        outline: transparent;
+    }
+    .sec1-2 button a{
+        text-decoration: none;
+        color: rgb(21, 160, 118);
+        color: white;
+    }
+    
+    .footer{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .footerLeft, .footerMid, .footerRight{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .footer .footerLeft img{
+        height: 30px;
+        width: 50px;
+    }
+    .footerLeft .links img{
+        height: 15px;
+        width: 15px;
+        margin-top: 0px;
+    }
+    .footerRight{
+        display: grid;
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+    .footerRight ul{
+        list-style-type: none;
+        font-size: 10px;
+        line-height: 17px;
+        padding-inline-start: 10px !important;
+    }
+    .footerRight ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    h6{
+        text-align: center;
+        background-color: rgb(21, 160, 118);
+        color: white;
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:375px) and (max-width:424px){
+    .navbar-brand img{
+        height: 40px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .navBrand label{
+        font-weight: bold;
+        color: rgb(21, 160, 118);
+        font-size: 12px;
+    }
+    #navBar ul li a:hover{
+        transform: none;
+    }
+
+    .sec1-1 h2{
+        margin-bottom: 50px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 22px;
+        color: black;
+    }
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .sec1-1 label{
+        font-weight: bold;
+        color: black;
+    }
+    .sec1-1 input,.sec1-1 textarea{
+        border: rgb(21, 160, 118) 2px solid;
+        width: 300px;
+        height: 100px;
+    }
+    .sec1-1 input{
+        padding-left: 10px;
+    }
+    .sec1-1 input[type=text]{
+        width: 300px;
+        height: 40px;
+    }
+    .sec1-1 input[type=email]{
+        width: 300px;
+        height: 40px;
+    }
+    .sec1-1 input[type=number]{
+        width: 300px;
+        height: 40px;
+    }
+    .sec1-1 button{
+        height: 50px;
+        width: 150px;
+        background-color: rgb(21, 160, 118) !important;
+        color: white;
+        border-radius: 50px;
+        outline: none !important;
+        margin-top: 40px;
+    }
+    .sec1-1 button:hover{
+        transform: none;
+        transition: none;
+    }
+    .sec1-2{
+        color: rgb(21, 160, 118);
+        margin-top: 100px;
+    }
+    .sec1-2 h2{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 70px;
+        color: black;
+    }
+    .sec1-2 span img{
+        height: 60px;
+        width: 60px;
+        margin-top: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .SocialMediaPlatforms{
+        margin-left: 32px;
+    }
+    #amazonIcon{
+        margin-left: 50px;
+    }
+    #flipkartIcon{
+        margin-left: 50px;
+    }
+    #flipkartIcon img{
+        height: 47px;
+        width: 47px;
+        border-radius: 50%;
+    }
+    .sec1-2 button{
+        background-color: rgb(96, 201, 169);
+        color: white;
+        font-size: 22px;
+        width: 270px;
+        border-radius: 50px;
+        margin-top: 40px;
+        margin-left: 40px;
+        outline: transparent;
+    }
+    .sec1-2 button a{
+        text-decoration: none;
+        color: rgb(21, 160, 118);
+        color: white;
+    }
+    
+    .footer{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 120px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .footerLeft, .footerMid, .footerRight{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .footer .footerLeft img{
+        height: 30px;
+        width: 50px;
+    }
+    .footerLeft .links img{
+        height: 18px;
+        width: 18px;
+        margin-top: 10px;
+    }
+    .footerRight{
+        display: grid;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .footerRight ul{
+        list-style-type: none;
+        font-size: 10px;
+        line-height: 20px;
+        padding-inline-start: 10px !important;
+    }
+    .footerRight ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    h6{
+        text-align: center;
+        background-color: rgb(21, 160, 118);
+        color: white;
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:425px) and (max-width:767px){
+    .navbar-brand img{
+        height: 40px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .navBrand label{
+        font-weight: bold;
+        color: rgb(21, 160, 118);
+        font-size: 12px;
+    }
+    #navBar ul li a:hover{
+        transform: none;
+    }
+
+    .sec1-1 h2{
+        margin-bottom: 50px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 22px;
+        color: black;
+    }
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .sec1-1 label{
+        font-weight: bold;
+        color: black;
+    }
+    .sec1-1 input,.sec1-1 textarea{
+        border: rgb(21, 160, 118) 2px solid;
+        width: 300px;
+        height: 100px;
+    }
+    .sec1-1 input{
+        padding-left: 10px;
+    }
+    .sec1-1 input[type=text]{
+        width: 300px;
+        height: 40px;
+    }
+    .sec1-1 input[type=email]{
+        width: 300px;
+        height: 40px;
+    }
+    .sec1-1 input[type=number]{
+        width: 300px;
+        height: 40px;
+    }
+    .sec1-1 button{
+        height: 50px;
+        width: 150px;
+        background-color: rgb(21, 160, 118) !important;
+        color: white;
+        border-radius: 50px;
+        outline: none !important;
+        margin-top: 40px;
+    }
+    .sec1-1 button:hover{
+        transform: none;
+        transition: none;
+    }
+    .sec1-2{
+        color: rgb(21, 160, 118);
+        margin-top: 100px;
+    }
+    .sec1-2 h2{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 70px;
+        color: black;
+    }
+    .sec1-2 span img{
+        height: 60px;
+        width: 60px;
+        margin-top: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .SocialMediaPlatforms{
+        margin-left: 32px;
+    }
+    #amazonIcon{
+        margin-left: 50px;
+    }
+    #flipkartIcon{
+        margin-left: 50px;
+    }
+    #flipkartIcon img{
+        height: 47px;
+        width: 47px;
+        border-radius: 50%;
+    }
+    .sec1-2 button{
+        background-color: rgb(96, 201, 169);
+        color: white;
+        font-size: 22px;
+        width: 270px;
+        border-radius: 50px;
+        margin-top: 40px;
+        margin-left: 40px;
+        outline: transparent;
+    }
+    .sec1-2 button a{
+        text-decoration: none;
+        color: rgb(21, 160, 118);
+        color: white;
+    }
+    
+    .footer{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 120px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .footerLeft, .footerRight{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .footerRight{
+        padding-left: 100px !important;
+    }
+    .footer .footerLeft img{
+        height: 40px;
+        width: 70px;
+    }
+    .footerLeft .links img{
+        height: 20px;
+        width: 20px;
+        margin-top: 0px;
+    }
+    .footerRight{
+        display: grid;
+        margin-top: 20px;
+    }
+    .footerRight ul{
+        list-style-type: none;
+        font-size: 10px;
+        line-height: 20px;
+        padding-inline-start: 10px !important;
+    }
+    .footerRight ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    h6{
+        text-align: center;
+        background-color: rgb(21, 160, 118);
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    .navbar-brand img{
+        height: 40px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .navBrand label{
+        font-weight: bold;
+        color: rgb(21, 160, 118);
+        font-size: 12px;
+    }
+    #navBar ul li a:hover{
+        transform: none;
+    }
+
+    .sec1-1 h2{
+        margin-bottom: 50px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 32px;
+        color: black;
+    }
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .sec1-1 label{
+        font-weight: bold;
+        color: black;
+    }
+    .sec1-1 input,.sec1-1 textarea{
+        border: rgb(21, 160, 118) 2px solid;
+        width: 500px;
+        height: 100px;
+    }
+    .sec1-1 input{
+        padding-left: 10px;
+    }
+    .sec1-1 input[type=text]{
+        width: 500px;
+        height: 40px;
+    }
+    .sec1-1 input[type=email]{
+        width: 500px;
+        height: 40px;
+    }
+    .sec1-1 input[type=number]{
+        width: 500px;
+        height: 40px;
+    }
+    .sec1-1 button{
+        height: 50px;
+        width: 150px;
+        background-color: rgb(21, 160, 118) !important;
+        color: white;
+        border-radius: 50px;
+        outline: none !important;
+        margin-top: 40px;
+    }
+    .sec1-1 button:hover{
+        transform: none;
+        transition: none;
+    }
+    .sec1-2{
+        color: rgb(21, 160, 118);
+        margin-top: 100px;
+    }
+    .sec1-2 h2{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 70px;
+        color: black;
+    }
+    .sec1-2 span img{
+        height: 70px;
+        width: 70px;
+        margin-top: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+        margin-left: 125px;
+    }
+    #amazonIcon{
+        margin-left: 70px;
+    }
+    #flipkartIcon{
+        margin-left: 70px;
+    }
+    #flipkartIcon img{
+        height: 47px;
+        width: 47px;
+        border-radius: 50%;
+    }
+    .sec1-2 button{
+        background-color: rgb(96, 201, 169);
+        color: white;
+        font-size: 22px;
+        width: 270px;
+        border-radius: 50px;
+        margin-top: 40px;
+        margin-left: 70px;
+        outline: transparent;
+    }
+    .sec1-2 button a{
+        text-decoration: none;
+        color: rgb(21, 160, 118);
+        color: white;
+    }
+    
+    .footer{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 120px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .footerLeft, .footerMid, .footerRight{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .footer .footerLeft img{
+        height: 50px;
+        width: 90px;
+    }
+    .footerLeft .links img{
+        height: 30px;
+        width: 30px;
+        margin-top: 0px;
+    }
+    .footerRight{
+        display: grid;
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+    .footerRight ul{
+        list-style-type: none;
+        font-size: 17px;
+        line-height: 22px;
+        padding-inline-start: 10px !important;
+    }
+    .footerRight ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    h6{
+        text-align: center;
+        background-color: rgb(21, 160, 118);
+        color: white;
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1439px){
+    
+    .sec1-1 input,.sec1-1 textarea{
+        border: rgb(21, 160, 118) 2px solid;
+        width: 500px;
+        height: 100px;
+    }
+
+    .sec1-2{
+        margin-right: 15px;
+    }
+
+    .footerRight{
+        display: grid;
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+}
+
+@media (min-width:1440px) and (max-width:4000px){
+    .footerRight{
+        display: grid;
+        margin-top: 20px;
+        margin-left: 350px;
+    }
+}

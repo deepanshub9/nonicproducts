@@ -1,0 +1,987 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+/* *{
+    background-color: rgb(241, 253, 249) !important;
+} */
+
+/* Navbar */
+    
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #15a583, #15a583);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 55px;
+    padding-left: 20px;
+} 
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 100px;
+    font-size: 22px;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/* #navBar{
+    background-color: white;
+    border-bottom: rgb(21, 160, 118) 2px solid;
+}
+#navBar a{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+#navBar ul li a:hover{
+    border-top: rgb(21, 160, 118) 2px solid;
+    transform: scale(1.05);
+}
+#navBar ul li #hoverNone:hover{
+    border-top: none;
+    transform: none;
+}
+#navBar .dropdown-menu a{
+    color: black;
+}
+.navbar-light .navbar-toggler{
+    color: white !important;
+    border-color: white !important;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 150px;
+    margin-left: 30px;
+}
+.navBrand label{
+    font-weight: bold;
+    color: rgb(21, 160, 118);
+}
+.navbar-toggler img{
+    height: 50px;
+    width: 40px;
+}
+.navbar-toggler {
+    padding: 0rem 0rem !important;
+}
+.dropdown-item{
+    padding: .25rem 2rem !important;
+}
+.dropdown-item:hover{
+    background-color: transparent !important;
+}
+#navbarDropdown:hover{
+    cursor: pointer;
+} */
+
+.ourProducts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.standard{
+    border: rgb(21, 160, 118) 2px solid;
+    height: 470px;
+    width: 305px;
+    text-align: center;
+    border-radius: 10px;
+}
+.standard img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.standard button{
+    background-color: rgb(21, 160, 118);
+    color: white;
+    height: 45px;
+    width: 120px;
+    border-radius: 10px;
+}
+.wave{
+    border: rgb(21, 160, 118) 2px solid;
+    height: 470px;
+    width: 305px;
+    text-align: center;
+    border-radius: 10px;
+}
+.wave img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.wave button{
+    background-color: rgb(21, 160, 118);
+    color: white;
+    height: 45px;
+    width: 120px;
+    border-radius: 10px;
+}
+.octave{
+    border: rgb(21, 160, 118) 2px solid;
+    height: 470px;
+    width: 305px;
+    text-align: center;
+    border-radius: 10px;
+}
+.octave img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.octave button{
+    background-color: rgb(21, 160, 118);
+    color: white;
+    height: 45px;
+    width: 120px;
+    border-radius: 10px;
+}
+.pheonix{
+    border: rgb(21, 160, 118) 2px solid;
+    height: 470px;
+    width: 305px;
+    text-align: center;
+    border-radius: 10px;
+}
+.pheonix img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+.pheonix button{
+    background-color: rgb(21, 160, 118);
+    color: white;
+    height: 45px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: rgb(21, 160, 118);
+    color: white;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+}
+.footerLeft, .footerMid, .footerRight{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.footer .footerLeft img{
+    height: 50px;
+    width: 180px;
+}
+.footerLeft .links img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+.footerMid{
+    display: grid;
+    justify-content: center;
+    margin-top: 70px;
+    line-height: 40px;
+}
+.footerMid a{
+    color: white;
+    text-decoration: unset;
+}
+.footerMid a:hover{
+    text-decoration: none;
+}
+.footerRight{
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footerRight ul{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+.footerRight ul li a{
+    color: white;
+    text-decoration: none;
+}
+h6{
+    text-align: center;
+    color: white !important;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 0rem !important;
+}
+.social_icon ul{
+display: flex;
+padding: 0px;
+}
+.social_icon ul li{
+    list-style-type: none;
+    padding:10px;
+}
+div#contact {
+    background-color: rgb(21, 160, 118);
+    padding: 25px 0px;
+}
+.image-icon span {
+    padding: 0px 20px;
+}
+div#contact h1,h2, span{
+    color:white !important;
+}
+
+/* Media Queries */
+@media (min-width:320px) and (max-width:374px){
+    .navbar-brand img{
+        height: 40px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .navBrand label{
+        font-weight: bold;
+        color: rgb(21, 160, 118);
+        font-size: 12px;
+    }
+    #navBar ul li a:hover{
+        transform: none;
+    }
+
+    .ourProducts{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .standard{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .standard img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .standard button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .wave{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .wave img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .wave button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .octave{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .octave img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .octave button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .pheonix{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .pheonix img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .pheonix button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+
+    .footer{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .footerLeft, .footerMid, .footerRight{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .footer .footerLeft img{
+        height: 30px;
+        width: 50px;
+    }
+    .footerLeft .links img{
+        height: 15px;
+        width: 15px;
+        margin-top: 0px;
+    }
+    .footerRight{
+        display: grid;
+        margin-top: 15px;
+    }
+    .footerRight ul{
+        list-style-type: none;
+        font-size: 10px;
+        line-height: 17px;
+        padding-inline-start: 10px !important;
+    }
+    .footerRight ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    h6{
+        text-align: center;
+        background-color: rgb(21, 160, 118);
+        color: white;
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:375px) and (max-width:424px){
+    .navbar-brand img{
+        height: 40px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .navBrand label{
+        font-weight: bold;
+        color: rgb(21, 160, 118);
+        font-size: 12px;
+    }
+    #navBar ul li a:hover{
+        transform: none;
+    }
+
+    .ourProducts{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+    .standard{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .standard img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .standard button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .wave{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .wave img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .wave button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .octave{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .octave img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .octave button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .pheonix{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .pheonix img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .pheonix button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+
+    .footer{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 120px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .footerLeft, .footerMid, .footerRight{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .footer .footerLeft img{
+        height: 30px;
+        width: 50px;
+    }
+    .footerLeft .links img{
+        height: 18px;
+        width: 18px;
+        margin-top: 10px;
+    }
+    .footerRight{
+        display: grid;
+        margin-top: 20px;
+    }
+    .footerRight ul{
+        list-style-type: none;
+        font-size: 10px;
+        line-height: 20px;
+        padding-inline-start: 10px !important;
+    }
+    .footerRight ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    h6{
+        text-align: center;
+        background-color: rgb(21, 160, 118);
+        color: white;
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:425px) and (max-width:767px){
+    .navbar-brand img{
+        height: 40px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .navBrand label{
+        font-weight: bold;
+        color: rgb(21, 160, 118);
+        font-size: 12px;
+    }
+    #navBar ul li a:hover{
+        transform: none;
+    }
+
+    .ourProducts{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+    .standard{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .standard img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .standard button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .wave{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .wave img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .wave button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .octave{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .octave img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .octave button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .pheonix{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .pheonix img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .pheonix button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+
+    .footer{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 120px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .footerLeft, .footerRight{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .footerRight{
+        padding-left: 100px !important;
+    }
+    .footer .footerLeft img{
+        height: 40px;
+        width: 70px;
+    }
+    .footerLeft .links img{
+        height: 20px;
+        width: 20px;
+        margin-top: 0px;
+    }
+    .footerRight{
+        display: grid;
+        margin-top: 20px;
+    }
+    .footerRight ul{
+        list-style-type: none;
+        font-size: 10px;
+        line-height: 20px;
+        padding-inline-start: 10px !important;
+    }
+    .footerRight ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    h6{
+        text-align: center;
+        background-color: rgb(21, 160, 118);
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    .navbar-brand img{
+        height: 40px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .navBrand label{
+        font-weight: bold;
+        color: rgb(21, 160, 118);
+        font-size: 12px;
+    }
+    #navBar ul li a:hover{
+        transform: none;
+    }
+
+    .ourProducts{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+    .standard{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .standard img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .standard button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .wave{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .wave img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .wave button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .octave{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .octave img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .octave button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .pheonix{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 275px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .pheonix img{
+        height: 270px;
+        width: 270px;
+        border-radius: 10px;
+    }
+    .pheonix button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+
+    .footer{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 120px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .footerLeft, .footerMid, .footerRight{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .footer .footerLeft img{
+        height: 50px;
+        width: 90px;
+    }
+    .footerLeft .links img{
+        height: 30px;
+        width: 30px;
+        margin-top: 0px;
+    }
+    .footerRight{
+        display: grid;
+        margin-top: 20px;
+        margin-left: 170px;
+    }
+    .footerRight ul{
+        list-style-type: none;
+        font-size: 17px;
+        line-height: 22px;
+        padding-inline-start: 10px !important;
+    }
+    .footerRight ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    h6{
+        text-align: center;
+        background-color: rgb(21, 160, 118);
+        color: white;
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1439px){
+    .navbar-brand img{
+        height: 40px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .navBrand label{
+        font-weight: bold;
+        color: rgb(21, 160, 118);
+        font-size: 12px;
+    }
+    #navBar ul li a:hover{
+        transform: none;
+    }
+
+    .ourProducts{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 100px;
+        margin-left: 120px;
+    }
+    .standard{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 305px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .standard img{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .standard button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .wave{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 305px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .wave img{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .wave button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .octave{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 305px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .octave img{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .octave button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+    .pheonix{
+        border: rgb(21, 160, 118) 2px solid;
+        height: 420px;
+        width: 305px;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 50px;
+    }
+    .pheonix img{
+        height: 270px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    .pheonix button{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 45px;
+        width: 120px;
+        border-radius: 10px;
+    }
+
+    .footer{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 120px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .footerLeft, .footerMid, .footerRight{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .footer .footerLeft img{
+        height: 50px;
+        width: 90px;
+    }
+    .footerLeft .links img{
+        height: 30px;
+        width: 30px;
+        margin-top: 0px;
+    }
+    .footerRight{
+        display: grid;
+        margin-top: 20px;
+        margin-left: 180px;
+    }
+    .footerRight ul{
+        list-style-type: none;
+        font-size: 17px;
+        line-height: 22px;
+        padding-inline-start: 10px !important;
+    }
+    .footerRight ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    h6{
+        text-align: center;
+        background-color: rgb(21, 160, 118);
+        color: white;
+        font-size: 14px !important;
+    }
+    
+}

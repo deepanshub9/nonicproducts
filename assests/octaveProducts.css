@@ -1,0 +1,1271 @@
+body{
+    margin: 0px auto;
+    padding: 0px;
+}
+/* *{
+    background-color: rgb(241, 253, 249) !important;
+} */
+
+/* Navbar */
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #15a583, #15a583);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 55px;
+    padding-left: 20px;
+} 
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 100px;
+    font-size: 22px;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 30px !important;
+}
+.sec1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0px !important;
+}
+.sec1 .sec1-1{
+    display: grid;
+    margin-top: 100px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#carouselExampleIndicators{
+    height: 500px;
+    width: 600px;
+}
+.carousel-indicators{
+    background-color: transparent !important;
+}
+.carousel-control-next,.carousel-control-next-icon{
+    background-color: transparent !important;
+    margin-top: 50px;
+}
+.carousel-control-prev,.carousel-control-prev-icon{
+    background-color: transparent !important;
+    margin-top: 50px;
+}
+.carousel-item img{
+    height: 600px;
+    width: 200px;
+}
+.sec1 .sec1-2{
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 10px;
+    color: rgb(21, 160, 118);
+}
+.sec1-2 h2{
+    margin-bottom: 40px;
+    margin-left: 10px;
+    color: rgb(21, 160, 118);
+    font-size: 28px !important;
+}
+.sec1-2 h4{
+    color: black;
+    margin-left: 10px;    
+}
+.sec1-2 h5{
+    color: rgb(21, 160, 118);
+    margin-left: 10px;
+}
+.container1{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.container2{
+    font-size: 18px;
+    opacity: 0.7;
+}
+.container3{
+    font-size: 20px;
+    opacity: 0.7;
+}
+.sec1-2 p{
+    color: black;
+    text-align: justify;
+    margin-left: 10px;
+}
+form label{
+    color: rgb(21, 160, 118);
+    margin-left: 10px;
+}
+select{
+    width: 100px;
+    font-size: 20px;
+    height: 30px;
+}
+.btnBuyNow{
+    height: 60px;
+    width: 160px;
+    background-color: rgb(21, 160, 118) !important;
+    color: white;
+    border-radius: 50px;
+    outline: none !important;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.btnBuyNow:hover{
+    transform: scale(1.07);
+    transition: 0.2s all;
+}
+
+.sec2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 100px;
+}
+.sec2 img{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+}
+.sec2 h2{
+    text-align: center;    
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#accordionExample h1{
+    color: rgb(21, 160, 118);
+}
+.accordion{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 100px;
+}
+.accordion h1{
+    color: rgb(21, 160, 118);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.accordion button{
+    text-decoration: none !important;
+    color: black;
+}
+.accordion button:hover{
+    color: rgb(21, 160, 118);
+}
+
+h1{
+    /* color: black; */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#carouselExampleIndicators1{
+    margin-top: 50px;
+    width: 70%;
+    height: 450px;
+    margin-left: 240px;
+    border: rgb(21, 160, 118) 1px solid;
+    box-shadow: rgb(21, 160, 118) 7px 7px;
+}
+#carousel-indicators{
+    background-color: transparent !important;
+}
+#carousel-control-next,#carousel-control-next-icon{
+    background-color: transparent !important;
+    margin-top: 0px;
+}
+#carousel-control-prev,#carousel-control-prev-icon{
+    background-color: transparent !important;
+    margin-top: 0px;
+}
+#carousel-item img{
+    height: 450px;
+    width: 50%;
+}
+.accordion>.card .card-header{
+    margin-top: -30px !important;   
+}
+
+.footer{
+    background-color: rgb(21, 160, 118);
+    color: white;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 150px;
+}
+.footerLeft, .footerMid, .footerRight{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.footer .footerLeft img{
+    height: 50px;
+    width: 180px;
+}
+.footerLeft .links img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+.footerMid{
+    display: grid;
+    justify-content: center;
+    margin-top: 70px;
+    line-height: 40px;
+}
+.footerMid a{
+    color: white;
+    text-decoration: unset;
+}
+.footerMid a:hover{
+    text-decoration: none;
+}
+.footerRight{
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footerRight ul{
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+.footerRight ul li a{
+    color: white;
+    text-decoration: none;
+}
+h6{
+    text-align: center;
+    color: white !important;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 0rem !important;
+}
+.social_icon ul{
+display: flex;
+padding: 0px;
+}
+.social_icon ul li{
+    list-style-type: none;
+    padding:10px;
+}
+div#contact {
+    background-color: rgb(21, 160, 118);
+    padding: 25px 0px;
+}
+.image-icon span {
+    padding: 0px 20px;
+}
+div#contact  {
+    color:white ;
+}
+
+/* Media Queries */
+@media (min-width:320px) and (max-width:374px){
+    .navbar-brand img{
+        height: 40px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .navBrand label{
+        font-weight: bold;
+        color: rgb(21, 160, 118);
+        font-size: 12px;
+    }
+    #navBar ul li a:hover{
+        transform: none;
+    }
+
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+    }
+    .sec1 .sec1-1{
+        display: grid;
+        margin-top: 100px;
+        justify-content: center;
+    }
+    #carouselExampleIndicators{
+        height: 100px;
+        width: 300px;
+    }
+    .carousel-indicators{
+        background-color: transparent !important;
+    }
+    .carousel-control-next,.carousel-control-next-icon{
+        background-color: transparent !important;
+        margin-top: 50px;
+    }
+    .carousel-control-prev,.carousel-control-prev-icon{
+        background-color: transparent !important;
+        margin-top: 50px;
+    }
+    .carousel-item img{
+        height: 200px;
+        width: 300px;
+    }
+    .sec1 .sec1-2{
+        display: grid;
+        justify-content: center;
+        margin-top: 70px;
+        margin-right: 10px;
+        color: rgb(21, 160, 118);
+        text-align: center;
+    }
+    .sec1-2 h2{
+        margin-bottom: 40px;
+        color: rgb(21, 160, 118);
+        font-size: 30px;
+    }
+    .sec1-2 h4{
+        color: black;
+    }
+    .sec1-2 h5{
+        color: rgb(21, 160, 118);
+    }
+    .container1{
+        text-decoration: line-through;
+        opacity: 0.5;
+    }
+    .container2{
+        font-size: 18px;
+        opacity: 0.7;
+    }
+    .container3{
+        font-size: 20px;
+        opacity: 0.7;
+    }
+    .sec1-2 p{
+        color: black;
+        text-align: justify;
+    }
+    form label{
+        color: rgb(21, 160, 118);
+    }
+    select{
+        width: 100px;
+        font-size: 20px;
+        height: 30px;
+    }
+    .btnBuyNow{
+        height: 60px;
+        width: 160px;
+        background-color: rgb(21, 160, 118) !important;
+        color: white;
+        border-radius: 50px;
+        outline: none !important;
+        margin-top: 40px;
+        margin-left: 80px;
+    }
+    .btnBuyNow:hover{
+        transform: none;
+        transition: none;
+    }
+
+    .sec2{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .sec2 img{
+        height: 100px;
+        width: 100px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .sec2 h2{
+        text-align: center;    
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    #accordionExample h1{
+        color: rgb(21, 160, 118);
+        font-size: 30px;
+    }
+    .accordion{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 100px;
+    }
+    .accordion h1{
+        color: rgb(21, 160, 118);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .accordion button{
+        text-decoration: none !important;
+        color: black;
+    }
+    .accordion button:hover{
+        color: rgb(21, 160, 118);
+    }
+    
+    h1{
+        color: black;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    #carouselExampleIndicators1{
+        margin-top: 50px;
+        width: 240px;
+        height: 170px;
+        margin-left: 40px !important;
+        border: rgb(21, 160, 118) 1px solid;
+        box-shadow: rgb(21, 160, 118) 5px 5px;
+    }
+    #carousel-indicators{
+        background-color: transparent !important;
+    }
+    #carousel-control-next,#carousel-control-next-icon{
+        background-color: transparent !important;
+        margin-top: 0px;
+    }
+    #carousel-control-prev,#carousel-control-prev-icon{
+        background-color: transparent !important;
+        margin-top: 0px;
+    }
+    #carousel-item img{
+        height: 170px;
+        width: 240px;
+    }
+
+    .footer{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .footerLeft, .footerMid, .footerRight{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .footer .footerLeft img{
+        height: 30px;
+        width: 50px;
+    }
+    .footerLeft .links img{
+        height: 15px;
+        width: 15px;
+        margin-top: 0px;
+    }
+    .footerRight{
+        display: grid;
+        margin-top: 15px;
+        margin-left: 50px;
+    }
+    .footerRight ul{
+        list-style-type: none;
+        font-size: 10px;
+        line-height: 17px;
+        padding-inline-start: 10px !important;
+    }
+    .footerRight ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    h6{
+        text-align: center;
+        background-color: rgb(21, 160, 118);
+        color: white;
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:375px) and (max-width:424px){
+    .navbar-brand img{
+        height: 40px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .navBrand label{
+        font-weight: bold;
+        color: rgb(21, 160, 118);
+        font-size: 12px;
+    }
+    #navBar ul li a:hover{
+        transform: none;
+    }
+
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+    }
+    .sec1 .sec1-1{
+        display: grid;
+        margin-top: 100px;
+        justify-content: center;
+    }
+    #carouselExampleIndicators{
+        height: 150px;
+        width: 350px;
+    }
+    .carousel-indicators{
+        background-color: transparent !important;
+    }
+    .carousel-control-next,.carousel-control-next-icon{
+        background-color: transparent !important;
+        margin-top: 50px;
+    }
+    .carousel-control-prev,.carousel-control-prev-icon{
+        background-color: transparent !important;
+        margin-top: 50px;
+    }
+    .carousel-item img{
+        height: 250px;
+        width: 350px;
+    }
+    .sec1 .sec1-2{
+        display: grid;
+        justify-content: center;
+        margin-top: 70px;
+        margin-right: 10px;
+        color: rgb(21, 160, 118);
+        text-align: center;
+    }
+    .sec1-2 h2{
+        margin-bottom: 40px;
+        color: rgb(21, 160, 118);
+        font-size: 30px;
+    }
+    .sec1-2 h4{
+        color: black;
+    }
+    .sec1-2 h5{
+        color: rgb(21, 160, 118);
+    }
+    .container1{
+        text-decoration: line-through;
+        opacity: 0.5;
+    }
+    .container2{
+        font-size: 18px;
+        opacity: 0.7;
+    }
+    .container3{
+        font-size: 20px;
+        opacity: 0.7;
+    }
+    .sec1-2 p{
+        color: black;
+        text-align: justify;
+    }
+    form label{
+        color: rgb(21, 160, 118);
+    }
+    select{
+        width: 100px;
+        font-size: 20px;
+        height: 30px;
+    }
+    .btnBuyNow{
+        height: 60px;
+        width: 160px;
+        background-color: rgb(21, 160, 118) !important;
+        color: white;
+        border-radius: 50px;
+        outline: none !important;
+        margin-top: 40px;
+        margin-left: 110px;
+    }
+    .btnBuyNow:hover{
+        transform: none;
+        transition: none;
+    }
+
+    .sec2{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .sec2 img{
+        height: 100px;
+        width: 100px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .sec2 h2{
+        text-align: center;    
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    #accordionExample h1{
+        color: rgb(21, 160, 118);
+        font-size: 30px;
+    }
+    .accordion{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 100px;
+    }
+    .accordion h1{
+        color: rgb(21, 160, 118);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .accordion button{
+        text-decoration: none !important;
+        color: black;
+    }
+    .accordion button:hover{
+        color: rgb(21, 160, 118);
+    }
+    
+    h1{
+        color: black;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+       #carouselExampleIndicators1{
+        margin-top: 50px;
+        width: 270px;
+        height: 200px;
+        margin-left: 50px !important;
+        border: rgb(21, 160, 118) 1px solid;
+        box-shadow: rgb(21, 160, 118) 5px 5px;
+    }
+    #carousel-indicators{
+        background-color: transparent !important;
+    }
+    #carousel-control-next,#carousel-control-next-icon{
+        background-color: transparent !important;
+        margin-top: 0px;
+    }
+    #carousel-control-prev,#carousel-control-prev-icon{
+        background-color: transparent !important;
+        margin-top: 0px;
+    }
+    #carousel-item img{
+        height: 200px;
+        width: 270px;
+    }
+
+    .footer{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 120px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .footerLeft, .footerMid, .footerRight{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .footer .footerLeft img{
+        height: 30px;
+        width: 50px;
+    }
+    .footerLeft .links img{
+        height: 18px;
+        width: 18px;
+        margin-top: 10px;
+    }
+    .footerRight{
+        display: grid;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .footerRight ul{
+        list-style-type: none;
+        font-size: 10px;
+        line-height: 20px;
+        padding-inline-start: 10px !important;
+    }
+    .footerRight ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    h6{
+        text-align: center;
+        background-color: rgb(21, 160, 118);
+        color: white;
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:425px) and (max-width:767px){
+    .navbar-brand img{
+        height: 40px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .navBrand label{
+        font-weight: bold;
+        color: rgb(21, 160, 118);
+        font-size: 12px;
+    }
+    #navBar ul li a:hover{
+        transform: none;
+    }
+
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+    }
+    .sec1 .sec1-1{
+        display: grid;
+        margin-top: 100px;
+        justify-content: center;
+    }
+    #carouselExampleIndicators{
+        height: 150px;
+        width: 350px;
+    }
+    .carousel-indicators{
+        background-color: transparent !important;
+    }
+    .carousel-control-next,.carousel-control-next-icon{
+        background-color: transparent !important;
+        margin-top: 50px;
+    }
+    .carousel-control-prev,.carousel-control-prev-icon{
+        background-color: transparent !important;
+        margin-top: 50px;
+    }
+    .carousel-item img{
+        height: 250px;
+        width: 350px;
+    }
+    .sec1 .sec1-2{
+        display: grid;
+        justify-content: center;
+        margin-top: 70px;
+        margin-right: 10px;
+        color: rgb(21, 160, 118);
+        text-align: center;
+    }
+    .sec1-2 h2{
+        margin-bottom: 40px;
+        color: rgb(21, 160, 118);
+        font-size: 30px;
+    }
+    .sec1-2 h4{
+        color: black;
+    }
+    .sec1-2 h5{
+        color: rgb(21, 160, 118);
+    }
+    .container1{
+        text-decoration: line-through;
+        opacity: 0.5;
+    }
+    .container2{
+        font-size: 18px;
+        opacity: 0.7;
+    }
+    .container3{
+        font-size: 20px;
+        opacity: 0.7;
+    }
+    .sec1-2 p{
+        color: black;
+        text-align: justify;
+    }
+    form label{
+        color: rgb(21, 160, 118);
+    }
+    select{
+        width: 100px;
+        font-size: 20px;
+        height: 30px;
+    }
+    .btnBuyNow{
+        height: 60px;
+        width: 160px;
+        background-color: rgb(21, 160, 118) !important;
+        color: white;
+        border-radius: 50px;
+        outline: none !important;
+        margin-top: 40px;
+        margin-left: 130px;
+    }
+    .btnBuyNow:hover{
+        transform: none;
+        transition: none;
+    }
+
+    .sec2{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .sec2 img{
+        height: 100px;
+        width: 100px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .sec2 h2{
+        text-align: center;    
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    #accordionExample h1{
+        color: rgb(21, 160, 118);
+        font-size: 30px;
+    }
+    .accordion{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 100px;
+    }
+    .accordion h1{
+        color: rgb(21, 160, 118);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .accordion button{
+        text-decoration: none !important;
+        color: black;
+    }
+    .accordion button:hover{
+        color: rgb(21, 160, 118);
+    }
+    
+    h1{
+        color: black;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+        #carouselExampleIndicators1{
+        margin-top: 50px;
+        width: 320px;
+        height: 220px;
+        margin-left: 50px !important;
+        border: rgb(21, 160, 118) 1px solid;
+        box-shadow: rgb(21, 160, 118) 5px 5px;
+    }
+    #carousel-indicators{
+        background-color: transparent !important;
+    }
+    #carousel-control-next,#carousel-control-next-icon{
+        background-color: transparent !important;
+        margin-top: 0px;
+    }
+    #carousel-control-prev,#carousel-control-prev-icon{
+        background-color: transparent !important;
+        margin-top: 0px;
+    }
+    #carousel-item img{
+        height: 220px;
+        width: 320px;
+    }
+
+    .footer{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 120px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .footerLeft, .footerRight{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .footerRight{
+        padding-left: 100px !important;
+    }
+    .footer .footerLeft img{
+        height: 40px;
+        width: 70px;
+    }
+    .footerLeft .links img{
+        height: 20px;
+        width: 20px;
+        margin-top: 0px;
+    }
+    .footerRight{
+        display: grid;
+        margin-top: 20px;
+    }
+    .footerRight ul{
+        list-style-type: none;
+        font-size: 10px;
+        line-height: 20px;
+        padding-inline-start: 10px !important;
+    }
+    .footerRight ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    h6{
+        text-align: center;
+        background-color: rgb(21, 160, 118);
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    .navbar-brand img{
+        height: 40px;
+        width: 100px;
+        margin-left: 30px;
+    }
+    .navBrand label{
+        font-weight: bold;
+        color: rgb(21, 160, 118);
+        font-size: 12px;
+    }
+    #navBar ul li a:hover{
+        transform: none;
+    }
+
+    .sec1{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+    }
+    .sec1 .sec1-1{
+        display: grid;
+        margin-top: 100px;
+        justify-content: center;
+    }
+    #carouselExampleIndicators{
+        height: 250px;
+        width: 550px;
+    }
+    .carousel-indicators{
+        background-color: transparent !important;
+    }
+    .carousel-control-next,.carousel-control-next-icon{
+        background-color: transparent !important;
+        margin-top: 50px;
+    }
+    .carousel-control-prev,.carousel-control-prev-icon{
+        background-color: transparent !important;
+        margin-top: 50px;
+    }
+    .carousel-item img{
+        height: 350px;
+        width: 550px;
+    }
+    .sec1 .sec1-2{
+        display: grid;
+        justify-content: center;
+        margin-top: 70px;
+        margin-right: 10px;
+        color: rgb(21, 160, 118);
+        text-align: center;
+    }
+    .sec1-2 h2{
+        margin-bottom: 40px;
+        color: rgb(21, 160, 118);
+        font-size: 30px;
+    }
+    .sec1-2 h4{
+        color: black;
+    }
+    .sec1-2 h5{
+        color: rgb(21, 160, 118);
+    }
+    .container1{
+        text-decoration: line-through;
+        opacity: 0.5;
+    }
+    .container2{
+        font-size: 18px;
+        opacity: 0.7;
+    }
+    .container3{
+        font-size: 20px;
+        opacity: 0.7;
+    }
+    .sec1-2 p{
+        color: black;
+        text-align: justify;
+    }
+    form label{
+        color: rgb(21, 160, 118);
+    }
+    select{
+        width: 100px;
+        font-size: 20px;
+        height: 30px;
+    }
+    .btnBuyNow{
+        height: 60px;
+        width: 160px;
+        background-color: rgb(21, 160, 118) !important;
+        color: white;
+        border-radius: 50px;
+        outline: none !important;
+        margin-top: 40px;
+        margin-left: 300px;
+    }
+    .btnBuyNow:hover{
+        transform: none;
+        transition: none;
+    }
+
+    .sec2{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .sec2 img{
+        height: 100px;
+        width: 100px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .sec2 h2{
+        text-align: center;    
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    #accordionExample h1{
+        color: rgb(21, 160, 118);
+        font-size: 30px;
+    }
+    .accordion{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 100px;
+    }
+    .accordion h1{
+        color: rgb(21, 160, 118);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .accordion button{
+        text-decoration: none !important;
+        color: black;
+    }
+    .accordion button:hover{
+        color: rgb(21, 160, 118);
+    }
+    
+    h1{
+        color: black;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    #carouselExampleIndicators1{
+        margin-top: 50px;
+        width: 520px;
+        height: 320px;
+        margin-left: 120px !important;
+        border: rgb(21, 160, 118) 1px solid;
+        box-shadow: rgb(21, 160, 118) 5px 5px;
+    }
+    #carousel-indicators{
+        background-color: transparent !important;
+    }
+    #carousel-control-next,#carousel-control-next-icon{
+        background-color: transparent !important;
+        margin-top: 0px;
+    }
+    #carousel-control-prev,#carousel-control-prev-icon{
+        background-color: transparent !important;
+        margin-top: 0px;
+    }
+    #carousel-item img{
+        height: 320px;
+        width: 520px;
+    }
+
+    .footer{
+        background-color: rgb(21, 160, 118);
+        color: white;
+        height: 120px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 70px;
+    }
+    .footerLeft, .footerMid, .footerRight{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .footer .footerLeft img{
+        height: 50px;
+        width: 90px;
+    }
+    .footerLeft .links img{
+        height: 30px;
+        width: 30px;
+        margin-top: 0px;
+    }
+    .footerRight{
+        display: grid;
+        margin-top: 20px;
+        margin-left: 200px;
+    }
+    .footerRight ul{
+        list-style-type: none;
+        font-size: 17px;
+        line-height: 22px;
+        padding-inline-start: 10px !important;
+    }
+    .footerRight ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    h6{
+        text-align: center;
+        background-color: rgb(21, 160, 118);
+        color: white;
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1439px){
+    
+    .sec1 .sec1-1{
+        display: grid;
+        margin-top: 140px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    #carouselExampleIndicators{
+        height: 400px;
+        width: 500px;
+    }
+    .carousel-indicators{
+        background-color: transparent !important;
+    }
+    .carousel-control-next,.carousel-control-next-icon{
+        background-color: transparent !important;
+        margin-top: 50px;
+    }
+    .carousel-control-prev,.carousel-control-prev-icon{
+        background-color: transparent !important;
+        margin-top: 50px;
+    }
+    .carousel-item img{
+        height: 500px;
+        width: 200px;
+    }
+    .sec1 .sec1-2{
+        display: grid;
+        justify-content: center;
+        margin-top: 100px;
+        margin-right: 10px;
+        color: rgb(21, 160, 118);
+    }
+    .sec1-2 h2{
+        margin-bottom: 0px;
+        margin-left: 10px;
+        color: rgb(21, 160, 118);
+        font-size: 28px !important;
+    }
+    .sec1-2 h4{
+        color: black;
+        margin-left: 10px;    
+    }
+    .sec1-2 h5{
+        color: rgb(21, 160, 118);
+        margin-left: 10px;
+        margin-top: 0px !important;
+    }
+    
+    .sec2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1.1fr;
+        margin-top: 100px;
+    }
+    .sec2 img{
+        height: 100px;
+        width: 100px;
+        margin-left: 100px;
+    }
+    .sec2 h2{
+        text-align: center;    
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .sec2-1{
+        margin-left: 10px;
+    }
+    .sec2-1 img{
+        margin-left: 50px;
+    }
+    .sec2-2 img{
+        margin-left: 60px;
+    }
+    .sec2-3 img{
+        margin-left: 50px;
+    }
+    .sec2-4 img{
+        margin-left: 50px;
+    }
+    .sec2-5{
+        margin-right: 10px;
+    }
+    .sec2-5 img{
+        margin-left: 70px;
+    }
+
+    #carouselExampleIndicators1{
+        margin-top: 50px;
+        width: 720px;
+        height: 420px;
+        margin-left: 150px !important;
+        border: rgb(21, 160, 118) 1px solid;
+        box-shadow: rgb(21, 160, 118) 5px 5px;
+    }
+    #carousel-indicators{
+        background-color: transparent !important;
+    }
+    #carousel-control-next,#carousel-control-next-icon{
+        background-color: transparent !important;
+        margin-top: 0px;
+    }
+    #carousel-control-prev,#carousel-control-prev-icon{
+        background-color: transparent !important;
+        margin-top: 0px;
+    }
+    #carousel-item img{
+        height: 420px;
+        width: 520px;
+    }
+}
